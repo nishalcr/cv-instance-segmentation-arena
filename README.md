@@ -28,20 +28,13 @@ pip install -r requirements.txt
 
 ## Download Dataset
 
-To download the COCO dataset, first run the `fetch_coco_data.sh` script:
+To download the COCO dataset, use the provided Python script with the following command:
 
 ```bash
-bash scripts/fetch_coco_data.sh
+python scripts/fetch_coco.py --dataset dataset/coco
 ```
 
-After downloading, untar the files:
-
-```bash
-unzip train2017.zip
-unzip val2017.zip
-unzip test2017.zip
-unzip annotations_trainval2017.zip
-```
+This will automatically download and extract the specified datasets.
 
 ## Usage
 
@@ -70,3 +63,4 @@ We welcome contributions! Please read our [contributing guidelines](CONTRIBUTING
 ## License
 
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for more information.
+
