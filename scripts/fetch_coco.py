@@ -1,9 +1,10 @@
+import argparse
+import logging
 import os
+import zipfile
+
 import requests
 from tqdm import tqdm
-import zipfile
-import logging
-import argparse
 
 logging.basicConfig(level=logging.INFO, format="%(asctime)s - %(levelname)s - %(message)s")
 
