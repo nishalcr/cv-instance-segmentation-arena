@@ -1,0 +1,6 @@
+# Install the required libraries
+
+pip install torch torchvision torchaudio
+pip install pycocotools
+
+python -m pip install 'git+https://github.com/facebookresearch/detectron2.git'
