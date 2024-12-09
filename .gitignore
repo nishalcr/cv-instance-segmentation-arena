@@ -164,3 +164,7 @@ cython_debug/
 *.out
 *.zip
 /dataset/coco
+*.h5
+*.pth
+.DS_Store
+output/
