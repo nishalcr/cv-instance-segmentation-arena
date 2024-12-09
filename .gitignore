@@ -166,3 +166,5 @@ cython_debug/
 /dataset/coco
 *.h5
 *.pth
+.DS_Store
+output/
